@@ -1,0 +1,210 @@
+@import url("https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css");
+
+@font-face {
+    font-family: 'venenosa';
+    src: url('venenosa.otf');
+    format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sans-Serif;
+    color: #fff;
+}
+body {
+    background: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+header {
+    background-color: red;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+header > h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+header > h1 > span {
+    color: #fff;
+}
+.signup {
+    margin-top: 80px;
+    /*margin-left: 20px;*/
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    backdrop-filter: blur(8px);
+}
+.signup > h1 {
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+    font-family: 'venenosa';
+    letter-spacing: 5px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+}
+.signup > .f-box {
+    margin-top: 20px;
+    margin: 5px;
+    padding:2px;
+}
+.signup > .f-box > form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+form > .email {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.email > label {
+    margin: 2.5px;
+}
+.email input {
+    width: 250px;
+    height: 40px;
+    text-indent: 15px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background:#FF9B94;
+    background: rgb(255,255,255,0.3);
+}
+.email > input::placeholder {
+    color: #fff;
+}
+form > .password {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.password > label {
+    margin: 2.5px;
+}
+.password > input {
+    width: 250px;
+    height: 40px;
+    text-indent: 15px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background: rgb(255,255,255,0.3);
+}
+.password > input::placeholder {
+    color: #fff;
+}
+form > .acceptN {
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #FF9D00;
+}
+.acceptN > input {
+    margin: 5px;
+}
+form > button {
+    background: red;
+    color: #fff;
+    text-transform: uppercase;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+form > button:hover {
+    background: #FF3E3E;
+}
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.or > hr {
+    margin: 5px;
+    width: 105px;
+}
+.social-ac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-ac a {
+    text-decoration: none;
+    color: #FF9D00;
+}
+.social-ac > a > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.social-ac > a > button > i {
+    margin: 5px;
+    font-size: 15px;
+}
+.social-ac > a > button > p {
+    margin: 5px;
+    letter-spacing: 0.3px;
+    color: #000;
+}
+.social-ac a:nth-child(1) > button> i {
+    color: #239CFF;
+}
+.social-ac a:nth-child(2) > button> i {
+    color: #FF3B00;
+}
+.social-ac a:nth-child(3) > button> i {
+    color: #000;
+} 
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.login > a{
+    margin: 3px;
+    text-decoration: none;
+    color: #FF9D00;
+}
+.signup > .f-box #fp {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: #FF9D00;
+    text-decoration: none;
+}
